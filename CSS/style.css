@@ -59,6 +59,26 @@ header{
 .banner-content{
     text-align: center;
 }
+/* Page 02 */
+.p2{
+    display: flex;
+    max-width:1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.p2-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+.p2-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    padding: 50px;
+}
 /* Responsiveness */
 @media screen and (max-width:576px) {
     .navbar{
@@ -67,6 +87,17 @@ header{
     .nav-header{
         text-align: center;
     }
+    .p2{
+        flex-direction: column;
+    }
+    .p2-img-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    
+
+
     
 }
 
