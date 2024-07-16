@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Common Item  */
+.common-btn {
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    background: rgb(255, 144, 14);
+    width: 11.25rem;
+    height: 4rem;
+    border: none;
+
+}
+/* Common Item  */
+
+
+
+.navbar{
+    max-width: 1440px;
+    margin: 0px auto;
+    margin-bottom:116px ;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    
+
+}
+.nav-links a {
+    text-decoration: none ;
+    margin-left: 20px;
+    font-size: 1rem;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background: rgba(255, 144, 14, 0.1);
+    
+}
+.nav-header{
+    font-size: 3rem;
+}
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-img{
+    width: 100%;
+    margin-top:50px ;
+}
+.banner-content{
+    text-align: center;
+}
+/* Responsiveness */
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-header{
+        text-align: center;
+    }
+    
+}
+
+
